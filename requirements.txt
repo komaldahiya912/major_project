@@ -4,8 +4,8 @@
 streamlit==1.38.0
 
 # Deep learning
-torch==2.5.0+cpu
-torchvision==0.20.0+cpu
+torch==2.5.0
+torchvision==0.20.0
 
 # Quantum ML
 pennylane==0.38.0

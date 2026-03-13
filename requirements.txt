@@ -1,0 +1,31 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Core framework
+streamlit==1.38.0
+
+# Deep learning
+torch==2.5.0+cpu
+torchvision==0.20.0+cpu
+
+# Quantum ML
+pennylane==0.38.0
+# NOTE: do NOT pin autoray separately — let pennylane pull compatible version
+
+# Numerics / ML
+numpy==1.26.4
+scikit-learn==1.5.2
+joblib==1.4.2
+
+# Image processing
+Pillow==10.4.0
+scikit-image==0.24.0
+
+# Data / plotting
+pandas==2.2.2
+matplotlib==3.9.0
+
+# PDF reports
+reportlab==4.2.5
+
+# Google Drive model download
+gdown==5.2.0
